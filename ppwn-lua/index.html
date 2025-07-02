@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Standard Jailbreak</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+      <div class="navigation w3-highway-blue w3-container">
+        <nav class="nav-container w3-padding-large">
+          <div class="logo">
+            <a href="#home" >How To <span>Jailbreak</span></a>
+          </div>
+          <div class="mobile-button">
+            <span style="float: right;" onclick="toggleMobileNavigation()">&#9776;</span>
+          </div>
+          <div class="links">
+            <a href="https://dragon-cheat.github.io/website-/" >About</a>
+            <a href="https://dragon-cheat.github.io/website-/" >Services</a>
+            <a href="https://t.me/DraGoN_CheAT_for_Ps_jailbreak" >Contact</a>            
+          </div>
+          <div id="mobile-sidenav" class="mobile-links w3-highway-blue">
+            <div class="mobile-logo" style="display: inline;">
+              <a href="#home" class="logo">CONNECT<span>FACTOR</span></a>
+              <span style="width: 100%;"></span>
+              <a href="javascript:void(0)" class="closebtn" onclick="toggleMobileNavigation()">&times;</a>
+            </div>
+            <a href="#about" onclick="toggleMobileNavigation()">About Us</a>
+            <a href="#services" onclick="toggleMobileNavigation()">Services</a>
+            <a href="#careers" onclick="toggleMobileNavigation()">Careers</a>
+            <a href="#contact" onclick="toggleMobileNavigation()">Contact</a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="hero" id="home">
+        <div class="text container">
+          <p class="pre-title"></p>
+          <h1 class="title"> How To Jailbreak Sony<span></span></h1>
+          <p class="post-title">PS4! - PS5!</p>
+          <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="#services">OUR SERVICES</a> 
+        </div>
+      </div>
+
+      <div class="about container w3-padding-large" id="about">
+        <div class="text-one">
+          <h2>PS4[PPPwn-Lua]</h2>
+          <p>How Enabling Homebrew Fw 7.00-11.00 (PPPwn)
+<br>
+See the PPPwn Jailbreak guide here: Jailbreak With PPPwn.
+<br>
+PPPwn is recommended to be used between 9.03-12.02 if a Lua game is not available.
+Enabling Homebrew 10.00-12.02 (Lua+Lapse)
+<br>
+There are conditions that need to be met to be able to use the jailbreak.
+Requirements
+<br>
+    Please make sure you have access to at least 1 of the games used for the Lua exploit: https://github.com/shahrilnet/remote_lua_loader the game has to be able to launch, if you do not have one or it cannot launch you cannot proceed. You will require a Lua Game Disc or Demo. The game demo could only have been acquired when your firmware was the latest firmware and you could connect to PSN. The Disc version will need to be purchased if you do not have the demo.<br>
+    You will need an activated user account. This can be a PSN account, or a fake activated account if you are on 10.00-11.00. If you are on 11.02-12.02 you will have to initially download a console backup and restore it to gain access to the save file. Please make sure to fake activate an Account with Apollo Save Tool after the initial jailbreak.
+    A way to import a Lua exploit save file. This can be done by:
+        Downloading a console backup and restoring it.
+        Resigning a save file to the currently activated account by using:
+            Another jailbroken console and Apollo Save Tool
+            A Discord Bot
+            Save Wizard
+<br>
+Note that restoring a console backup wipes all other data from the console.
+Obtaining Lua game FAQ/Q&A
+<br>
+For game demos:
+<br>
+    No, you cannot download a demo on a different console and transfer it with an external drive.
+    No, you cannot take someone's console backup that has the game demo and have it work.
+    No, you cannot use IDU or anything else to install the demo and have it work.
+    No, you cannot download the demo if you aren't on latest firmware.
+    No, you cannot get the demo at all if you already don't have it while keeping your current firmware.
+<br>
+In conclusion, you're going to have to buy the game disc if you don't have the demo. Or wait for a WebKit exploit ETA unknown.
+Activating User Account
+<br>
+If you have a real PSN account on the console, or have created one via Apollo Save Tool, you can skip this step and go to Importing Lua Save Game. If not, continue.
+Activating an Account on 10.00-11.00 (Jailbroken)
+<br>
+    Jailbreak the PS4 by visiting the Jailbreak with PPPwn page.
+    Fake activate your account by following the guide on the Apollo Save Tool Guide.
+<br>
+Activating an Account on 11.02-12.02 (Universal)
+<br>
+    Download a console backup file which will give you an activated user account. This will wipe your console, but keep it on the same firmware.
+    If the console backup you get does not come with the needed save file, you have to create one to export it add the exploit files. The exploited saves can be imported by resigning them to the currently activated account by using:
+        Another jailbroken console with Apollo Save Tool.
+        A Discord Bot.
+        Save Wizard.
+<br>
+Importing Lua Save Game
+<br>
+If you downloaded a console backup and it does not have the needed save file, or you are on a jailbroken console, follow along.<br>
+Importing the save on 10.00-11.00 (Jailbroken)
+<br>
+    First, jailbreak with PPPwn so that you can add the exploit files to a save: Jailbreak With PPPwn
+    Download and unpack the files in the Lua Loader repo: https://github.com/shahrilnet/remote_lua_loader
+    Play the game for a while until you can create save data.
+    Connect a USB disk to the PS4.
+    Use Apollo Save Tool to export decrypted save data to USB drive by using the "Copy save game to USB" option.
+    Go to (x:\PS4\APOLLO\id_{YOUR_GAME_CUSA_ID}_savedata) and delete all files except the "sce_sys" folder.
+    Copy and paste all files from savedata where the "sce_sys" folder is not inside it.
+    Use Apollo Save Tool to import the new save data from USB drive with "Copy save game to HDD".
+<br>
+Importing the save on 10.00-12.02 (Universal)
+<br>
+Skip if you already have the save data via a console restore. (Requires and activated account)
+<br>
+    Download and unpack the files in the Lua Loader repo https://github.com/shahrilnet/remote_lua_loader
+    Play the game for a while until you can create save data.
+    Connect a USB disk to the PS4.
+    Export the savedata to a USB by using the Application Saved Data Management feature. Take note of your AccountID in the PS4/SAVEDATA/AccountID path.
+    Use Apollo Save Tool, Save Wizard or a Discord bot to decrypt the save.
+    If using Apollo Save Tool choose Copy save data to USB drive.
+    Go to (x:\PS4\APOLLO\id_{YOUR_GAME_CUSA_ID}_savedata) or whatever you get from SW/Discord and delete all files except the "sce_sys" folder.
+    Copy and paste all files from the lua loader savedata folder where the "sce_sys" folder is not inside it.
+    Use Apollo Save Tool to import the new save data from USB drive with "Copy save game to HDD" or if using Save Wizard or a Discord bot import it the same way you exported it.
+    Run the game and check if there is a popup from lua loader.
+<br>
+Setting up Exploit Server on PC
+<br>
+    Download and install python 3.12 or above: https://www.python.org/downloads/ (Make sure to run as admin and add it to path in the installer options)
+    Download and unpack the files in the Lua Loader repo https://github.com/shahrilnet/remote_lua_loader
+
+Setting up the network connection
+<br>
+Connect your PS4 and PC to the same network.
+<br>
+    On your PS4
+    Navigate to Settings > Network > Check Connect to the Internet, then Set Up Internet Connection and:
+    Connection: Wi-Fi or LAN cable
+    Set Up: Custom
+    IP Address: Automatic
+    DHCP Host Name: Do Not Specify
+    DNS Settings: Manual
+    Primary DNS: 62.210.38.117 (leave the secondary blank as it is)
+    MTU Settings: Automatic
+    Proxy Server: Do Not Use
+    Test the internet connection. Then go to "View Connection Status" and take note of your PS4's IP.
+
+    Note: For some people, their Internet Provider will block DNS’s, thus not allowing you to use the DNS. In this case you can skip the DNS and see: Blocking OFW Updates after jailbreaking.
+<br>
+Running the Jailbreak
+<br>
+    Open the game; the lua loader will launch.
+    Back to the files from the lua loader repo, open the payloads folder, and type in cmd in the address bar (not the search bar).
+    Insert your PS4's IP in the following command python send_lua.py <IP> 9026 lapse.lua and run it. If the exploit fails run it again.
+        For example, if the IP address of your Plastation is 192.168.0.69, your command will be: python send_lua.py 192.168.0.69 9026 lapse.lua
+    Once lapse is successful insert your PS4's IP in the following command python send_lua.py <IP> 9026 bin_loader.lua You should get a popup that the binloader is listening.
+        For example, if the IP address of your Plastation is 192.168.0.69, your command will be: `python send_lua.py 192.168.0.69 9026 bin_loader.lua
+    Download the payload loader: https://github.com/TheMagicalBlob/Blobs-Payload-Sender/releases/latest
+    Download HEN: https://github.com/EchoStretch/ps4-hen-vtx/releases/latest
+    Open the payload loader, set the port to 9021 then set the IP to that of your PS4 and select the HEN file for your firmware.
+    HEN will load and you can close the game.
+<br>
+Updating the save file while jailbroken on 10.00 to 12.02
+<br>
+    Jailbreak the console.
+    Use Apollo Save Tool to Copy save data to USB drive.
+    Copy and paste all files from savedata in the Lua loader repo into USB drive (x:\PS4\APOLLO\id_{YOUR_GAME_CUSA_ID}_savedata), overwriting currently existing data.
+    Use Apollo Save Tool to import the new save data from USB drive.
+<br>
+Troubleshooting
+<br>
+    Make sure you have the latest files.</p>
+          <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="https://github.com/egycnq/LUA-Lapse?tab=readme-ov-file">Read more</a> 
+        </div>
+        <div class="text-one">
+          <h2>PS5[BdJb-Lua]</h2>
+          <p>PS5 Kernel Exploit – BD-JB status Fw 6.00 - 10.50<br>
+Multiple hackers have been looking into pushing the PS5 Kernel exploit one step further, with some of them working on the BD-JB (Blu-Ray) implementation, others on the Webkit implementation (these are two usermode entry points that ultimately leverage the same kernel exploit for privilege escalation).
+<br>
+Developer John Tornblom in particular has been very active, and has ported the ELF loader from the Webkit version to the Blu-Ray version of the exploit. This is critical, because a bunch of payloads right now are being released in this format. The BD-JB exploit already allowed for some payloads in the Java (JAR) format, but those would have to be created from scratch, compared to ELF files which are already being created for the Webkit exploit and which are often simple to port from past PS4 payloads, in the first place.
+<br>
+Bottom line: this could dramatically improve access to multiple payloads for people who run the exploit on BD-JB.
+<br>
+I won’t lie, as a Digital version PS5 owner, I’m a bit concerned about this race between the two exploits. It’s becoming a growing possibility that the BD-JB exploit could be leveraged in a better way than the webkit exploit, simply because it’s compatible with older firmwares. Older firmwares might have the holy grail, the hypervisor exploit that everybody’s been looking for, and that would mean only people with a Physical Edition of the PS5, running on very early firmwares, would get access to such a thing.
+BD-JB + PS5 Kernel Exploit – download and run
+<br>
+You will need to burn the exploit on a Blu-Ray disc. Sadly there is no iso release on John’s github so you will need to make the iso download<br>
+        <br> How Exploiting games on the PS4/PS5 [LUA] <br>
+          Crafting malicious savedata for your games isn’t as easy as it used to be. Savegames are now encrypted with your unique user ID, and can’t easily be shared with other users. The best way to craft a PS4 savegame that will work in particular on your PS5, is to created it on a hacked PS4. Alternatives such as PS4 Save Wizard exist (but that particular one is a product with a fee). Bottom line, in order to possibly hack your PS5 down the line, you need a hacked PS4 to begin with. Not an impossible requirement, but a hurdle nonetheless.
+<br>
+It’s also worth noting that the exploited games are all from the JP market and quite hard to find (in physical version). PSN versions exist for some games, in particular for the free demo of Hamidashi Creative but you’ll need a Japanese account on your PS4/PS5 (it’s not super hard to create, just an additional hurdle). A physical copy probably remains the safest method if your PS5 supports discs, since in general it won’t require to update beyond the game’s own requirement.
+<br>
+    Raspberry Cube (CUSA16074) – Buy on ebay (affiliate link)
+    Aibeya (CUSA17068) – Buy on ebay (affiliate link)
+    Hamidashi Creative (CUSA27389) – Buy on ebay (affiliate link)
+    Hamidashi Creative Demo (CUSA27390) – Requires latest firmware to download from PSN
+<br>
+          With all of this context in mind, we have a new release of the Lua Remote Loader for PS4/PS5 by developer shahrilnet, confirmed working on PS5 Firmware up to 10.20 included.
+<br>
+This tool lets you exploit the 4 aforementioned games with a script that will install a loader listening on port 9026 and let you send lua files for it to run on the console.  </p>
+          <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="https://github.com/shahrilnet/remote_lua_loader">Read more</a> 
+        </div>
+      </div>
+
+    
+       
+   
+
+      <div class=" w3-highway-blue w3-padding-large" id="footer">
+        <p class="w3-center logo">© 2025 - ✈︎DRAGON&CHEAT<span></span> - All rights reserved</p>
+      </div>
+
+  <script>
+    function toggleMobileNavigation() {
+      const mobileNavigation = document.getElementById("mobile-sidenav");
+      mobileNavigation.classList.toggle('mobile-links-active');
+    }
+</script>
+  </body>
+</html>
