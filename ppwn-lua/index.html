@@ -62,7 +62,23 @@ Enabling Homebrew 10.00-12.02 (Lua+Lapse)
 There are conditions that need to be met to be able to use the jailbreak.
 Requirements
 <br>
-    Please make sure you have access to at least 1 of the games used for the Lua exploit: https://github.com/shahrilnet/remote_lua_loader the game has to be able to launch, if you do not have one or it cannot launch you cannot proceed. You will require a Lua Game Disc or Demo. The game demo could only have been acquired when your firmware was the latest firmware and you could connect to PSN. The Disc version will need to be purchased if you do not have the demo.<br>
+    Please make sure you have access to at least 1 of the games used for the Lua exploit:<br>
+            Raspberry Cube (CUSA16074)
+Aibeya (CUSA17068)
+Hamidashi Creative (CUSA27389)
+Hamidashi Creative Demo (CUSA27390) - Requires latest firmware to download from PSN
+Aikagi Kimi to Issho ni Pack (CUSA16229)
+Aikagi 2 (CUSA19556)
+IxSHE Tell (CUSA17112)
+IxSHE Tell Demo (CUSA17126)
+Nora Princess and Stray Cat Heart HD (CUSA13303)
+Jinki Resurrection (CUSA25179)
+Jinki Resurrection Demo (CUSA25180) - Requires latest firmware to download from PSN
+Fuyu Kiss (CUSA29745)
+Fuyu Kiss Demo (CUSA29746)
+Nora Princess and Crying Cat 2 (CUSA13586)
+Haruoto Alice Gram Snow Drop (CUSA14324) <br>
+  the game has to be able to launch, if you do not have one or it cannot launch you cannot proceed. You will require a Lua Game Disc or Demo. The game demo could only have been acquired when your firmware was the latest firmware and you could connect to PSN. The Disc version will need to be purchased if you do not have the demo.<br>
     You will need an activated user account. This can be a PSN account, or a fake activated account if you are on 10.00-11.00. If you are on 11.02-12.02 you will have to initially download a console backup and restore it to gain access to the save file. Please make sure to fake activate an Account with Apollo Save Tool after the initial jailbreak.
     A way to import a Lua exploit save file. This can be done by:
         Downloading a console backup and restoring it.
@@ -71,21 +87,10 @@ Requirements
             A Discord Bot
             Save Wizard
 <br>
-Note that restoring a console backup wipes all other data from the console.
-Obtaining Lua game FAQ/Q&A
-<br>
-For game demos:
-<br>
-    No, you cannot download a demo on a different console and transfer it with an external drive.
-    No, you cannot take someone's console backup that has the game demo and have it work.
-    No, you cannot use IDU or anything else to install the demo and have it work.
-    No, you cannot download the demo if you aren't on latest firmware.
-    No, you cannot get the demo at all if you already don't have it while keeping your current firmware.
-<br>
 In conclusion, you're going to have to buy the game disc if you don't have the demo. Or wait for a WebKit exploit ETA unknown.
 Activating User Account
 <br>
-If you have a real PSN account on the console, or have created one via Apollo Save Tool, you can skip this step and go to Importing Lua Save Game. If not, continue.
+If you have a real PSN account on the console, or have created one via Apollo Save Tool, yocan skip this step and go to Importing Lua Save Game. If not, continue.
 Activating an Account on 10.00-11.00 (Jailbroken)
 <br>
     Jailbreak the PS4 by visiting the Jailbreak with PPPwn page.
@@ -171,11 +176,38 @@ Updating the save file while jailbroken on 10.00 to 12.02
     Copy and paste all files from savedata in the Lua loader repo into USB drive (x:\PS4\APOLLO\id_{YOUR_GAME_CUSA_ID}_savedata), overwriting currently existing data.
     Use Apollo Save Tool to import the new save data from USB drive.
 <br>
-Troubleshooting
+  >>PPPwn-Luckfox<<
+ <br>         
+Requirements:
+One of Luckfox Pico models above:<br>
+Support Boards
+Luckfox Pico
+Luckfox Pico Pro
+Luckfox Pico Max
+Luckfox Pico Plus
+Luckfox Pico Mini A/B
+Ethernet Cable\
+USB Type-C
+A USB drive with exFAT formatted (only use for the first time to load GoldHEN)
+PC/Laptop for config the Luckfox<br>
+simply need to connect the LAN cable from Luckfox Pico to the PS4 and power the Luckfox from the PS4 via a USB Type-C cable or other sources.
+On PS4:
+Go to Settings and then Network
+Select Set Up Internet connection and choose Use a LAN Cable
+Choose Custom setup and choose PPPoE for IP Address Settings
+Enter ppp for both PPPoE User ID and PPPoE Password
+Choose Automatic for DNS Settings and MTU Settings
+Choose Do Not Use for Proxy Server
+   and GoldHEN you need to place the goldhen.bin file onto the root of a USB drive and plug it into the console.
+    <br>burn the pre-build image that you downloaded above to your Luckfox.
+
+Once you flashed the image, pppwn will run automatically.
+Troubleshooting 
 <br>
     Now have new the latest files on (9.00 11.00 12.2)</p> 
-      <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="https://github.com/0x1iii1ii/PPPwn-Luckfox">PPPwn-Luckfox </a> 
-         <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="https://github.com/shahrilnet/remote_lua_loader">LUA Loader Pc List games</a> 
+      <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="https://github.com/0x1iii1ii/PPPwn-Luckfox/releases/tag/1.2.7">PPPwn-Luckfox model</a> 
+    <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-RV1103/Luckfox-Pico-Flash-burn-image/">-Luckfox-Installation </a> 
+       <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="https://github.com/shahrilnet/remote_lua_loader">LUA Loader Pc List games</a> 
       <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="https://github.com/shahrilnet/remote_lua_loader">LUA Loader Ps4-SaveData</a>
       <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="https://github.com/egycnq/LUA-Lapse?tab=readme-ov-file"> LUA+Lapse (KBASE) </a>
 
