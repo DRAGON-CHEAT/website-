@@ -58,6 +58,10 @@ p {
   margin: 0 auto;
 }
 
+.no-copy {
+  user-select: none;
+}
+
 /*Navigation*/
 
 .navigation {
