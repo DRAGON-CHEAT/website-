@@ -58,10 +58,13 @@ p {
 .container {
   width: 60%;
   margin: 0 auto;
+  
+}
+.no-copy {
+  user-select: none;
 }
 
 /*Navigation*/
-
 .navigation {
   width: 100%;
   position: fixed;
